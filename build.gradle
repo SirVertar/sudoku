@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+apply plugin: 'java'
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.mateusz.jakuszko.sudokugame.SudokuGame'
+        )
+    }
+}
+
+group 'com.mateusz.jakuszko'
+version 'v1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
