@@ -7,15 +7,15 @@
 * [How to start up an application](##HowToStartUpAnApplication)
 
 ## Introduction
-###Sudoku is a simple console game. 
+### Sudoku is a simple console game. 
 
 
 #### In the game You can: 
 * By click "0" on a keyboard - force an algorithm to resolve Sudoku.
 * By click "1" on a keyboard - make choice, for example: "1,3,5" means that You want put a number 5
 into row 1 and column 5. You can also do multiply choices for example: 3,4,5,6,7,8 means that You want put number 
-5 into row 3 and column 5, and number 8 to row 6 and column 7. There is also an algorithm which validate your 
-move in case of the same number in one column, row or square, so don't worry about making mistakes :).
+5 into row 3 and column 5, and number 8 into row 6 and column 7. There is also an algorithm which validate your 
+move in a case of errors like: the same number in one column, row or square. So don't worry about making mistakes :).
 * By click "2" on a keyboard - leave sudoku game.
 
 ## Screenshots
